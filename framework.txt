@@ -1,0 +1,38 @@
+Last.fm Group Analysis framework:
+
+groupmember struct {
+	int radius,angle		 //to be determined later
+	genres[10]	 //max of 50 genres (?)
+	artists[10]  //max of 10 (top) artists
+	avatar.jpg
+}
+
+group struct {
+	artists[]
+	members[]
+	genres[]
+}
+
+group thegroup
+
+thegroup.members[] = //parse group.getmembers
+
+thegroup.artists[] = //parse group.getweeklyartistchart
+					 //we can either have a time-dependent
+					 //vis or just a present-time vis, wouldn't
+					 //be too hard to generate for date ranges
+
+for(members.each) {
+	groupmember curr = members[i]
+	curr.avatar = user.getinfo //parse to get image url
+	curr.artists[] = user.getTopArtists 
+	for(artist.each) {
+		genres = artist.getInfo   //parse info, find genre tags
+		curr.genres += genres     //hash
+		thegroup.genres += genres // hash
+	}
+}
+
+execute angle/radius algorithm
+
+views n stuff
