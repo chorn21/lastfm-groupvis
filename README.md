@@ -3,6 +3,8 @@ lastfm-groupvis
 
 A project to visualize the musical compatibility of the members of a last.fm group.
 
+**View the raw version of this, the formatting doesn't allow for line breaks for some reason which ruins it**
+
 2/26 Update:
 
 Group data
