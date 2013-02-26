@@ -1,8 +1,8 @@
-/* CONTACT CLASS
+/* GROUPIE CLASS
  * ============================================================ */
  
-// New contact declaration boilerplate:
-// Contact chewbacca = new Contact(
+// New Groupie declaration boilerplate:
+// Groupie chewbacca = new Groupie(
 //   /* int = */ id,
 //   /* stroke color = */ color,
 //   /* fill color = */ color,
@@ -11,11 +11,11 @@
 //   /* angle = */ PVector
 // );
  
-class Contact {
+class Groupie {
   
 /* Class Variables
  * ------------------------------------------------------------ */
-  // contact info
+  // Groupie info
   int id;
   int sent = 0;
   int received = 0;
@@ -29,7 +29,7 @@ class Contact {
   
   // location + movement
   PVector at;
-  PVector angle; // a unit vector to move the contact along
+  PVector angle; // a unit vector to move the Groupie along
   PVector velocity;
   float magLowerLimit = buffer;
   float magUpperLimit = radius/2;
@@ -42,8 +42,8 @@ class Contact {
   
 /* Constructors
  * ------------------------------------------------------------ */
-  Contact(int idP, color strokeP, color fillP, float sizeP, PVector startP, PVector angleP) {
-    // contact info
+  Groupie(int idP, color strokeP, color fillP, float sizeP, PVector startP, PVector angleP) {
+    // Groupie info
     id = idP;
 
     // drawing
@@ -63,7 +63,7 @@ class Contact {
     updateSize(0); // sets resizeRate
   }
   
-/* Functions - Update Contact
+/* Functions - Update Groupie
  * ------------------------------------------------------------ */
   void updatePosition(float toP) {    
     velocity = angle.get();

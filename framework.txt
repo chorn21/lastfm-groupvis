@@ -2,8 +2,8 @@ Last.fm Group Analysis framework:
 
 groupmember struct {
 	int radius,angle		 //to be determined later
-	genres[10]	 //max of 50 genres (?)
-	artists[10]  //max of 10 (top) artists
+	genres[10]	 			 //max of 50 genres (?)
+	artists[10]  			 //max of 10 (top) artists
 	avatar.jpg
 }
 
@@ -33,6 +33,3 @@ for(members.each) {
 	}
 }
 
-execute angle/radius algorithm
-
-views n stuff
