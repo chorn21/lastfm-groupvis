@@ -20,12 +20,12 @@ D = (1-3)^2 + (2-5)^2, etc
 
 *Normalize distances based on largest calculated distance, so that they are each % out of 100, to allow for spectrum.*
 
+                                          (normalized) Difference Spectrum
+
     Relevant membe        Me                                                              Not relevant
     oo o                  o                                 o     o                             o
     |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
     perfect  ~10       ~20       ~30       ~40       ~50       ~60       ~70       ~80       ~90      shouldn't be in group
-
-                                          (normalized) Difference Spectrum
 
 Taylor and I discussed using a gradient to represent this, but ran into issues when trying to visualize clusters, as it
 isn't intuitive to try and group 'similar' genres and create a 'genre spectrum'.
