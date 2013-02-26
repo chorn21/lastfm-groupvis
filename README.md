@@ -28,7 +28,8 @@ D = (1-3)^2 + (2-5)^2, etc
     perfect  ~10       ~20       ~30       ~40       ~50       ~60       ~70       ~80       ~90      shouldn't be in group
 
 Taylor and I discussed using a gradient to represent this, but ran into issues when trying to visualize clusters, as it
-isn't intuitive to try and group 'similar' genres and create a 'genre spectrum'.
+isn't intuitive to try and group 'similar' genres and create a 'genre spectrum'. Also a big issue with this is that two people
+can be in the same 'difference cluster' but can listen to completely different music.
 
 We can get started on obtaining the relevant data, however, and generate a spectrum like above while still planning how 
 to create a final visualization to give a more aesthetic vis.
