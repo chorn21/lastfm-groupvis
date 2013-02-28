@@ -7,8 +7,8 @@ A project to visualize the musical compatibility of the members of a last.fm gro
 
 Group data
   - For calculations:
-      -> generate list of all genres weighted by # of listeneres for each / total # weights
-      -> for each member, generate list of genres weighted by # of artist per genre / total # weights
+     - generate list of all genres weighted by # of listeneres for each / total # weights
+     - for each member, generate list of genres weighted by # of artist per genre / total # weights
 
 From this, we can determine how close each member is closest to the group average by computing differences.
  - Distance formula for each genre comparing member's normalized weight per genre compared to group's weight per genre
@@ -37,5 +37,5 @@ to create a final visualization to give a more aesthetic vis.
 
 Long term goals:
   - For visualization:
-      -> for each member, obtain avatar .jpg URL and name
-      -> keep list of top artists for each member, when hovering over name show top artists
+     - for each member, obtain avatar .jpg URL and name
+     - keep list of top artists for each member, when hovering over name show top artists
